@@ -4,7 +4,10 @@
 
 ## 🔧 Paralelização do Gargalo
 
-A Figura 2 ilustra a solução adotada para paralelizar o gargalo do código.  
+A Figura 2 ilustra a solução adotada para paralelizar o gargalo do código.
+
+![Paralelização do gargalo do Compressor](./Figura2.jpeg)
+
 Cada índice do vetor representa uma thread, e cada caractere possui um índice.  
 
 Para que uma thread possa buscar bits restantes corretamente, são necessárias três informações:  
