@@ -1,0 +1,38 @@
+Descompressor.cpp:279:36: missed: couldn't vectorize loop
+Descompressor.cpp:279:36: missed: not vectorized: control flow in loop.
+
+Descompressor.cpp:263:20: missed: couldn't vectorize loop
+Descompressor.cpp:263:20: missed: not vectorized: number of iterations cannot be computed.
+
+Descompressor.cpp:198:18: missed: couldn't vectorize loop
+Descompressor.cpp:198:18: missed: not vectorized: control flow in loop.
+
+Descompressor.cpp:311:22: missed: couldn't vectorize loop
+
+Descompressor.cpp:329:18: missed: couldn't vectorize loop
+Descompressor.cpp:329:18: missed: not vectorized: control flow in loop.
+
+Descompressor.cpp:331:29: missed: couldn't vectorize loop
+Descompressor.cpp:331:29: missed: not vectorized: control flow in loop.
+
+Descompressor.cpp:356:23: missed: couldn't vectorize loop
+Descompressor.cpp:356:23: missed: not vectorized: control flow in loop.
+
+Descompressor.cpp:358:25: missed: couldn't vectorize loop
+Descompressor.cpp:358:25: missed: not vectorized: control flow in loop.
+
+Descompressor.cpp:248:8: missed: couldn't vectorize loop
+Descompressor.cpp:248:8: missed: not vectorized: control flow in loop.
+
+Descompressor.cpp:248:8: missed: couldn't vectorize loop
+Descompressor.cpp:248:8: missed: not vectorized: control flow in loop.
+
+Descompressor.cpp:311:22: missed: couldn't vectorize loop
+
+Descompressor.cpp:85:18: missed: couldn't vectorize loop
+Descompressor.cpp:85:18: missed: not vectorized: control flow in loop.
+
+Descompressor.cpp:59:19: missed: couldn't vectorize loop
+Descompressor.cpp:59:19: missed: not vectorized: control flow in loop.
+
+

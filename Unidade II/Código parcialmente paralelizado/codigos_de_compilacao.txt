@@ -1,0 +1,16 @@
+
+Perfilamento:
+g++ -pg -no-pie -fno-builtin -o pipe pipeline.cpp Compressor.cpp Descompressor.cpp
+
+./pipe um_meio.mp4
+
+gprof ./comp | less
+
+Vetorização:
+
+g++ -O3 -ftree-vectorize -fopt-info-vec-missed -c Descompressor.cpp -o Descompressor.o
+
+gprof -b -q pipe  gmon.out > call_graph.dot
+
+Código para compilar usando OpenMP: g++ -pg -no-pie -fno-builtin -fopenmp -o pipe pipeline.cpp Compressor.cpp Descompressor.cpp
+

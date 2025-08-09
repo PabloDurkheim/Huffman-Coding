@@ -1,0 +1,293 @@
+Descompressor.cpp:279:36: missed: couldn't vectorize loop
+Descompressor.cpp:279:36: missed: not vectorized: control flow in loop.
+Descompressor.cpp:263:20: missed: couldn't vectorize loop
+Descompressor.cpp:263:20: missed: not vectorized: number of iterations cannot be computed.
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:79:33: missed: statement clobbers memory: __builtin_memcpy (i_10, "(1)", 4);
+/usr/include/c++/13/bits/char_traits.h:399:25: missed: statement clobbers memory: _44 = __builtin_strlen (dot_pointer_13);
+/usr/include/c++/13/bits/basic_string.tcc:229:13: missed: statement clobbers memory: _48 = std::__cxx11::basic_string<char>::_M_create (&s, &__dnew, 0);
+/usr/include/c++/13/bits/char_traits.h:435:49: missed: statement clobbers memory: __builtin_memcpy (_37, dot_pointer_13, _44);
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:79:33: missed: statement clobbers memory: __builtin_memcpy (dot_pointer_13, "(1)", 4);
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:79:33: missed: statement clobbers memory: __builtin_strcpy (_8, _7);
+/usr/include/c++/13/bits/new_allocator.h:172:26: missed: statement clobbers memory: operator delete (_7, _40);
+Descompressor.cpp:291:19: missed: statement clobbers memory: _56 = fopen (name_18(D), "rb");
+Descompressor.cpp:297:25: missed: statement clobbers memory: _57 = opendir (name_18(D));
+Descompressor.cpp:299:21: missed: statement clobbers memory: closedir (_57);
+Descompressor.cpp:293:15: missed: statement clobbers memory: fclose (_56);
+Descompressor.cpp:187:28: missed: statement clobbers memory: burn_tree (_15);
+Descompressor.cpp:188:27: missed: statement clobbers memory: burn_tree (_16);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_13, 24);
+Descompressor.cpp:187:28: missed: statement clobbers memory: burn_tree (_17);
+Descompressor.cpp:188:27: missed: statement clobbers memory: burn_tree (_18);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_14, 24);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_11, 24);
+Descompressor.cpp:187:28: missed: statement clobbers memory: burn_tree (_21);
+Descompressor.cpp:188:27: missed: statement clobbers memory: burn_tree (_22);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_19, 24);
+Descompressor.cpp:187:28: missed: statement clobbers memory: burn_tree (_23);
+Descompressor.cpp:188:27: missed: statement clobbers memory: burn_tree (_24);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_20, 24);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_12, 24);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_1, 24);
+Descompressor.cpp:187:28: missed: statement clobbers memory: burn_tree (_29);
+Descompressor.cpp:188:27: missed: statement clobbers memory: burn_tree (_30);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_27, 24);
+Descompressor.cpp:187:28: missed: statement clobbers memory: burn_tree (_31);
+Descompressor.cpp:188:27: missed: statement clobbers memory: burn_tree (_32);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_28, 24);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_25, 24);
+Descompressor.cpp:187:28: missed: statement clobbers memory: burn_tree (_35);
+Descompressor.cpp:188:27: missed: statement clobbers memory: burn_tree (_36);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_33, 24);
+Descompressor.cpp:187:28: missed: statement clobbers memory: burn_tree (_37);
+Descompressor.cpp:188:27: missed: statement clobbers memory: burn_tree (_38);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_34, 24);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_26, 24);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (_2, 24);
+Descompressor.cpp:189:12: missed: statement clobbers memory: operator delete (node_5(D), 24);
+Descompressor.cpp:198:18: missed: couldn't vectorize loop
+Descompressor.cpp:198:18: missed: not vectorized: control flow in loop.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (current_byte_25(D), 1, 1, fp_read_26(D));
+Descompressor.cpp:215:31: missed: statement clobbers memory: _29 = operator new (24);
+Descompressor.cpp:207:32: missed: statement clobbers memory: _35 = operator new (24);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&temp_byte, 1, 1, fp_read_9(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (current_byte_10(D), 1, 1, fp_compressed_11(D));
+Descompressor.cpp:291:19: missed: statement clobbers memory: _9 = fopen (name_4(D), "rb");
+Descompressor.cpp:297:25: missed: statement clobbers memory: _10 = opendir (name_4(D));
+Descompressor.cpp:299:21: missed: statement clobbers memory: closedir (_10);
+Descompressor.cpp:293:15: missed: statement clobbers memory: fclose (_9);
+Descompressor.cpp:258:6: missed: statement clobbers memory: _Z21change_name_if_existsPc.part.0 (name_4(D));
+Descompressor.cpp:291:19: missed: statement clobbers memory: _6 = fopen (name_4(D), "rb");
+Descompressor.cpp:297:25: missed: statement clobbers memory: _9 = opendir (name_4(D));
+Descompressor.cpp:299:21: missed: statement clobbers memory: closedir (_9);
+Descompressor.cpp:293:15: missed: statement clobbers memory: fclose (_6);
+Descompressor.cpp:311:22: missed: couldn't vectorize loop
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&temp_byte, 1, 1, fp_compressed_10(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&temp_byte, 1, 1, fp_compressed_10(D));
+Descompressor.cpp:329:18: missed: couldn't vectorize loop
+Descompressor.cpp:329:18: missed: not vectorized: control flow in loop.
+Descompressor.cpp:331:29: missed: couldn't vectorize loop
+Descompressor.cpp:331:29: missed: not vectorized: control flow in loop.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (current_byte_30(D), 1, 1, fp_compressed_31(D));
+Descompressor.cpp:356:23: missed: couldn't vectorize loop
+Descompressor.cpp:356:23: missed: not vectorized: control flow in loop.
+Descompressor.cpp:358:25: missed: couldn't vectorize loop
+Descompressor.cpp:358:25: missed: not vectorized: control flow in loop.
+Descompressor.cpp:355:23: missed: statement clobbers memory: _20 = fopen (path_18(D), "wb");
+Descompressor.cpp:372:15: missed: statement clobbers memory: fwrite (_10, 1, 1, _20);
+Descompressor.cpp:374:15: missed: statement clobbers memory: fclose (_20);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (current_byte_27(D), 1, 1, fp_compressed_28(D));
+Descompressor.cpp:248:8: missed: couldn't vectorize loop
+Descompressor.cpp:248:8: missed: not vectorized: control flow in loop.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: couldn't vectorize loop
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: not vectorized: control flow in loop.
+Descompressor.cpp:144:6: missed: splitting region at control altering definition _239 = std::__cxx11::basic_string<char>::_M_create (&D.51856, &__dnew, 0);
+/usr/include/c++/13/bits/basic_string.h:1565:19: missed: statement clobbers memory: std::__cxx11::basic_string<char>::_M_mutate (path_18(D), _144, 0, 0B, 1);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: not vectorized: statement can throw an exception: __fread_alias (&temp_byte, 1, 1, fp_compressed_21(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: not vectorized: statement can throw an exception: __fread_alias (&temp_byte, 1, 1, fp_compressed_21(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: not vectorized: statement can throw an exception: __fread_alias (current_byte_20(D), 1, 1, fp_compressed_21(D));
+Descompressor.cpp:179:9: missed: statement clobbers memory: saved_stack.41_29 = __builtin_stack_save ();
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: not vectorized: statement can throw an exception: __fread_alias (&temp_byte, 1, 1, fp_compressed_21(D));
+Descompressor.cpp:173:18: missed: statement clobbers memory: newfile.40_34 = __builtin_alloca_with_align (_9, 8);
+Descompressor.cpp:174:28: missed: not vectorized: statement can throw an exception: write_file_name (newfile.40_34, file_name_length_30, current_byte_20(D), current_bit_count_19(D), root_35(D), fp_compressed_21(D));
+/usr/include/c++/13/bits/char_traits.h:399:25: missed: statement clobbers memory: _225 = __builtin_strlen (newfile.40_34);
+/usr/include/c++/13/bits/basic_string.h:3537:20: missed: not vectorized: statement can throw an exception: std::__cxx11::basic_string<char>::reserve (&D.51855, _230);
+/usr/include/c++/13/bits/basic_string.h:1459:18: missed: not vectorized: statement can throw an exception: std::__cxx11::basic_string<char>::_M_append (&D.51855, _140, _141);
+/usr/include/c++/13/bits/basic_string.h:1459:18: missed: not vectorized: statement can throw an exception: std::__cxx11::basic_string<char>::_M_append (&D.51855, newfile.40_34, _225);
+/usr/include/c++/13/bits/char_traits.h:435:49: missed: statement clobbers memory: __builtin_memcpy (_252, &D.51855.D.28230._M_local_buf, pretmp_187);
+/usr/include/c++/13/bits/new_allocator.h:172:26: missed: statement clobbers memory: operator delete (_246, _249);
+Descompressor.cpp:177:18: missed: statement clobbers memory: mkdir (_104, 493);
+/usr/include/c++/13/bits/basic_string.tcc:229:13: missed: not vectorized: statement can throw an exception: _239 = std::__cxx11::basic_string<char>::_M_create (&D.51856, &__dnew, 0);
+/usr/include/c++/13/bits/basic_string.h:218:26: missed: splitting region at dominance boundary bb86
+/usr/include/c++/13/bits/basic_string.h:218:26: missed: splitting region at dominance boundary bb90
+/usr/include/c++/13/bits/basic_string.h:250:31: missed: splitting region at dominance boundary bb91
+/usr/include/c++/13/bits/char_traits.h:435:49: missed: statement clobbers memory: __builtin_memcpy (_226, _101, _102);
+/usr/include/c++/13/bits/basic_string.h:223:28: missed: splitting region at loop 1 exit at bb101
+Descompressor.cpp:178:29: missed: not vectorized: statement can throw an exception: translate_folder (&D.51856, current_byte_20(D), current_bit_count_19(D), fp_compressed_21(D), root_35(D));
+/usr/include/c++/13/bits/new_allocator.h:172:26: missed: statement clobbers memory: operator delete (_274, _277);
+Descompressor.cpp:144:6: missed: statement clobbers memory: __builtin_stack_restore (saved_stack.41_29);
+Descompressor.cpp:144:6: missed: splitting region at dominance boundary bb63
+/usr/include/c++/13/bits/basic_string.h:804:19: missed: statement clobbers memory: std::__cxx11::basic_string<char>::_M_dispose (&D.51856);
+Descompressor.cpp:144:6: missed: not vectorized: statement can throw an exception: resx 13
+/usr/include/c++/13/bits/basic_string.h:804:23: missed: splitting region at dominance boundary bb58
+/usr/include/c++/13/bits/basic_string.h:400:24: missed: not vectorized: statement can throw an exception: std::__throw_length_error ("basic_string::append");
+/usr/include/c++/13/bits/basic_string.h:400:24: missed: splitting region at dominance boundary bb68
+/usr/include/c++/13/bits/basic_string.h:400:24: missed: not vectorized: statement can throw an exception: std::__throw_length_error ("basic_string::append");
+/usr/include/c++/13/bits/basic_string.h:400:24: missed: splitting region at dominance boundary bb55
+/usr/include/c++/13/bits/basic_string.h:804:19: missed: statement clobbers memory: std::__cxx11::basic_string<char>::_M_dispose (&D.51855);
+Descompressor.cpp:144:6: missed: not vectorized: statement can throw an exception: resx 26
+/usr/include/c++/13/bits/basic_string.h:804:19: missed: splitting region at dominance boundary bb104
+/usr/include/c++/13/bits/basic_string.h:804:19: missed: splitting region at dominance boundary bb16
+Descompressor.cpp:144:6: missed: statement clobbers memory: __builtin_stack_restore (saved_stack.41_213);
+Descompressor.cpp:144:6: missed: not vectorized: statement can throw an exception: resx 8
+Descompressor.cpp:144:6: missed: splitting region at loop 1 exit at bb98
+Descompressor.cpp:169:9: missed: statement clobbers memory: saved_stack.39_48 = __builtin_stack_save ();
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: not vectorized: statement can throw an exception: __fread_alias (&temp_byte, 1, 1, fp_compressed_21(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: splitting region at dominance boundary bb18
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: splitting region at loop 2 exit at bb19
+Descompressor.cpp:236:8: missed: splitting region at loop 1 exit at bb20
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: not vectorized: statement can throw an exception: __fread_alias (&temp_byte, 1, 1, fp_compressed_21(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: splitting region at dominance boundary bb21
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: splitting region at loop 1 exit at bb34
+Descompressor.cpp:163:18: missed: statement clobbers memory: newfile.38_54 = __builtin_alloca_with_align (_6, 8);
+Descompressor.cpp:164:28: missed: not vectorized: statement can throw an exception: write_file_name (newfile.38_54, file_name_length_51, current_byte_20(D), current_bit_count_19(D), root_35(D), fp_compressed_21(D));
+/usr/include/c++/13/bits/char_traits.h:399:25: missed: statement clobbers memory: _184 = __builtin_strlen (newfile.38_54);
+/usr/include/c++/13/bits/basic_string.h:3537:20: missed: not vectorized: statement can throw an exception: std::__cxx11::basic_string<char>::reserve (&D.51846, _189);
+/usr/include/c++/13/bits/basic_string.h:3537:20: missed: splitting region at dominance boundary bb24
+/usr/include/c++/13/bits/basic_string.h:3537:20: missed: splitting region at loop 1 exit at bb28
+/usr/include/c++/13/bits/basic_string.h:1459:18: missed: not vectorized: statement can throw an exception: std::__cxx11::basic_string<char>::_M_append (&D.51846, _142, _143);
+/usr/include/c++/13/bits/basic_string.h:1459:18: missed: splitting region at dominance boundary bb29
+/usr/include/c++/13/bits/basic_string.h:1459:18: missed: splitting region at loop 1 exit at bb33
+/usr/include/c++/13/bits/basic_string.h:1459:18: missed: not vectorized: statement can throw an exception: std::__cxx11::basic_string<char>::_M_append (&D.51846, newfile.38_54, _184);
+/usr/include/c++/13/bits/basic_string.h:1459:18: missed: splitting region at dominance boundary bb37
+/usr/include/c++/13/bits/basic_string.h:1459:18: missed: splitting region at dominance boundary bb95
+/usr/include/c++/13/bits/char_traits.h:435:49: missed: statement clobbers memory: __builtin_memcpy (_202, &D.51846.D.28230._M_local_buf, pretmp_183);
+/usr/include/c++/13/bits/new_allocator.h:172:26: missed: statement clobbers memory: operator delete (_196, _199);
+Descompressor.cpp:168:27: missed: not vectorized: statement can throw an exception: translate_file (_91, size_312, current_byte_20(D), current_bit_count_19(D), root_35(D), fp_compressed_21(D));
+Descompressor.cpp:144:6: missed: statement clobbers memory: __builtin_stack_restore (saved_stack.39_48);
+/usr/include/c++/13/bits/basic_string.h:218:26: missed: splitting region at loop 1 exit at bb125
+Descompressor.cpp:157:40: missed: splitting region at dominance boundary bb10
+Descompressor.cpp:157:40: missed: splitting region at dominance boundary bb109
+/usr/include/c++/13/bits/new_allocator.h:172:26: missed: statement clobbers memory: operator delete (_281, _284);
+Descompressor.cpp:182:1: missed: splitting region at dominance boundary bb51
+Descompressor.cpp:182:1: missed: splitting region at dominance boundary bb30
+Descompressor.cpp:182:1: missed: splitting region at dominance boundary bb25
+/usr/include/c++/13/bits/basic_string.h:400:24: missed: not vectorized: statement can throw an exception: std::__throw_length_error ("basic_string::append");
+/usr/include/c++/13/bits/basic_string.h:400:24: missed: splitting region at dominance boundary bb35
+/usr/include/c++/13/bits/basic_string.h:400:24: missed: not vectorized: statement can throw an exception: std::__throw_length_error ("basic_string::append");
+/usr/include/c++/13/bits/basic_string.h:400:24: missed: splitting region at dominance boundary bb22
+/usr/include/c++/13/bits/basic_string.h:804:19: missed: statement clobbers memory: std::__cxx11::basic_string<char>::_M_dispose (&D.51846);
+Descompressor.cpp:144:6: missed: not vectorized: statement can throw an exception: resx 25
+/usr/include/c++/13/bits/basic_string.h:804:19: missed: splitting region at dominance boundary bb99
+/usr/include/c++/13/bits/basic_string.h:804:19: missed: splitting region at dominance boundary bb107
+Descompressor.cpp:144:6: missed: statement clobbers memory: __builtin_stack_restore (saved_stack.39_203);
+Descompressor.cpp:144:6: missed: not vectorized: statement can throw an exception: resx 3
+Descompressor.cpp:144:6: missed: splitting region at dominance boundary bb110
+/usr/include/c++/13/bits/basic_string.h:804:19: missed: statement clobbers memory: std::__cxx11::basic_string<char>::_M_dispose (&new_path);
+Descompressor.cpp:248:8: missed: couldn't vectorize loop
+Descompressor.cpp:248:8: missed: not vectorized: control flow in loop.
+Descompressor.cpp:311:22: missed: couldn't vectorize loop
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&temp_byte, 1, 1, _54);
+Descompressor.cpp:85:18: missed: couldn't vectorize loop
+Descompressor.cpp:85:18: missed: not vectorized: control flow in loop.
+Descompressor.cpp:59:19: missed: couldn't vectorize loop
+Descompressor.cpp:59:19: missed: not vectorized: control flow in loop.
+Descompressor.cpp:16:5: missed: splitting region at control altering definition _470 = std::__cxx11::basic_string<char>::_M_create (&D.51746, &__dnew, 0);
+Descompressor.cpp:20:33: missed: statement clobbers memory: _2 = strlen (_1);
+Descompressor.cpp:22:55: missed: statement clobbers memory: _51 = operator new [] (_49);
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:79:33: missed: statement clobbers memory: __builtin___strcpy_chk (_51, _5, _49);
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:130:33: missed: statement clobbers memory: __builtin___strcat_chk (_51, ".compressed", _49);
+Descompressor.cpp:31:24: missed: statement clobbers memory: _54 = fopen (_51, "rb");
+Descompressor.cpp:36:10: missed: statement clobbers memory: fseek (_54, 0, 2);
+Descompressor.cpp:38:10: missed: statement clobbers memory: fseek (_54, 0, 0);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&letter_count, 1, 1, _54);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&password_length, 1, 1, _54);
+Descompressor.cpp:72:5: missed: statement clobbers memory: saved_stack.6_59 = __builtin_stack_save ();
+Descompressor.cpp:53:14: missed: statement clobbers memory: real_password.3_62 = __builtin_alloca_with_align (_10, 8);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:215:22: missed: statement clobbers memory: __fread_chk (real_password.3_62, _10, 1, _13, _54);
+/usr/include/c++/13/ostream:667:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Enter password:", 15);
+/usr/include/c++/13/istream:911:26: missed: statement clobbers memory: std::__istream_extract (&cin, &password_input, 257);
+/usr/include/c++/13/streambuf:351:27: missed: statement clobbers memory: _341 = OBJ_TYPE_REF(_340;_323->9B) (_323);
+/usr/include/c++/13/bits/basic_ios.h:158:20: missed: statement clobbers memory: std::basic_ios<char>::clear (_346, _348);
+/usr/include/c++/13/ostream:667:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Correct Password", 16);
+/usr/include/c++/13/bits/locale_facets.h:884:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_413);
+/usr/include/c++/13/bits/locale_facets.h:885:23: missed: statement clobbers memory: _430 = OBJ_TYPE_REF(_424;_413->6B) (_413, 10);
+/usr/include/c++/13/ostream:736:19: missed: statement clobbers memory: _411 = std::basic_ostream<char>::put (&cout, prephitmp_384);
+/usr/include/c++/13/ostream:758:24: missed: statement clobbers memory: std::basic_ostream<char>::flush (_411);
+Descompressor.cpp:16:5: missed: statement clobbers memory: __builtin_stack_restore (saved_stack.6_59);
+Descompressor.cpp:81:27: missed: statement clobbers memory: _77 = operator new (24);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&temp_byte, 1, 1, _54);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&temp_byte, 1, 1, _54);
+Descompressor.cpp:89:33: missed: statement clobbers memory: process_n_bits_TO_STRING (&current_byte, len_33, &current_bit_count, _54, _77, _21);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&temp_byte, 1, 1, _54);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&temp_byte, 1, 1, _54);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&current_byte, 1, 1, _54);
+Descompressor.cpp:127:9: missed: statement clobbers memory: saved_stack.19_88 = __builtin_stack_save ();
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&temp_byte, 1, 1, _54);
+Descompressor.cpp:120:18: missed: statement clobbers memory: newfile.18_92 = __builtin_alloca_with_align (_30, 8);
+Descompressor.cpp:121:28: missed: statement clobbers memory: write_file_name (newfile.18_92, file_name_length_89, &current_byte, &current_bit_count, _77, _54);
+Descompressor.cpp:291:19: missed: statement clobbers memory: _483 = fopen (newfile.18_92, "rb");
+Descompressor.cpp:297:25: missed: statement clobbers memory: _484 = opendir (newfile.18_92);
+Descompressor.cpp:124:18: missed: statement clobbers memory: mkdir (newfile.18_92, 493);
+Descompressor.cpp:299:21: missed: statement clobbers memory: closedir (_484);
+Descompressor.cpp:293:15: missed: statement clobbers memory: fclose (_483);
+Descompressor.cpp:16:5: missed: statement clobbers memory: _Z21change_name_if_existsPc.part.0 (newfile.18_92);
+Descompressor.cpp:124:18: missed: statement clobbers memory: mkdir (newfile.18_92, 493);
+/usr/include/c++/13/bits/char_traits.h:399:25: missed: statement clobbers memory: _478 = __builtin_strlen (newfile.18_92);
+/usr/include/c++/13/bits/basic_string.tcc:229:13: missed: statement clobbers memory: _488 = std::__cxx11::basic_string<char>::_M_create (&folder_name, &__dnew, 0);
+/usr/include/c++/13/bits/char_traits.h:435:49: missed: statement clobbers memory: __builtin_memcpy (_301, newfile.18_92, _478);
+/usr/include/c++/13/bits/basic_string.tcc:229:13: missed: not vectorized: statement can throw an exception: _470 = std::__cxx11::basic_string<char>::_M_create (&D.51746, &__dnew, 0);
+Descompressor.cpp:82:15: missed: splitting region at dominance boundary bb83
+Descompressor.cpp:82:15: missed: splitting region at dominance boundary bb87
+/usr/include/c++/13/bits/basic_string.h:250:31: missed: splitting region at dominance boundary bb88
+/usr/include/c++/13/bits/char_traits.h:435:49: missed: statement clobbers memory: __builtin_memcpy (_299, _186, _187);
+/usr/include/c++/13/bits/basic_string.h:223:28: missed: splitting region at loop 3 exit at bb101
+Descompressor.cpp:126:29: missed: not vectorized: statement can throw an exception: translate_folder (&D.51746, &current_byte, &current_bit_count, _54, _77);
+/usr/include/c++/13/bits/new_allocator.h:172:26: missed: statement clobbers memory: operator delete (_501, _504);
+/usr/include/c++/13/bits/new_allocator.h:172:26: missed: statement clobbers memory: operator delete (_495, _498);
+Descompressor.cpp:16:5: missed: statement clobbers memory: __builtin_stack_restore (saved_stack.19_88);
+Descompressor.cpp:16:5: missed: splitting region at dominance boundary bb104
+/usr/include/c++/13/bits/basic_string.h:804:19: missed: statement clobbers memory: std::__cxx11::basic_string<char>::_M_dispose (&D.51746);
+Descompressor.cpp:16:5: missed: not vectorized: statement can throw an exception: resx 13
+/usr/include/c++/13/bits/basic_string.h:804:23: missed: splitting region at dominance boundary bb61
+/usr/include/c++/13/bits/basic_string.h:804:19: missed: statement clobbers memory: std::__cxx11::basic_string<char>::_M_dispose (&folder_name);
+/usr/include/c++/13/bits/basic_string.h:804:23: missed: splitting region at dominance boundary bb94
+Descompressor.cpp:116:9: missed: statement clobbers memory: saved_stack.16_105 = __builtin_stack_save ();
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&temp_byte, 1, 1, _54);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:212:26: missed: statement clobbers memory: __fread_alias (&temp_byte, 1, 1, _54);
+Descompressor.cpp:110:18: missed: statement clobbers memory: newfile.15_111 = __builtin_alloca_with_align (_28, 8);
+Descompressor.cpp:111:28: missed: statement clobbers memory: write_file_name (newfile.15_111, file_name_length_108, &current_byte, &current_bit_count, _77, _54);
+Descompressor.cpp:291:19: missed: statement clobbers memory: _465 = fopen (newfile.15_111, "rb");
+Descompressor.cpp:297:25: missed: statement clobbers memory: _466 = opendir (newfile.15_111);
+Descompressor.cpp:299:21: missed: statement clobbers memory: closedir (_466);
+Descompressor.cpp:293:15: missed: statement clobbers memory: fclose (_465);
+Descompressor.cpp:16:5: missed: statement clobbers memory: _Z21change_name_if_existsPc.part.0 (newfile.15_111);
+Descompressor.cpp:115:27: missed: statement clobbers memory: translate_file (newfile.15_111, size_286, &current_byte, &current_bit_count, _77, _54);
+Descompressor.cpp:16:5: missed: statement clobbers memory: __builtin_stack_restore (saved_stack.16_105);
+Descompressor.cpp:236:8: missed: splitting region at loop 3 exit at bb142
+Descompressor.cpp:102:40: missed: splitting region at dominance boundary bb56
+Descompressor.cpp:102:40: missed: splitting region at dominance boundary bb108
+Descompressor.cpp:131:11: missed: statement clobbers memory: fclose (_54);
+Descompressor.cpp:132:14: missed: statement clobbers memory: burn_tree (_77);
+/usr/include/c++/13/ostream:667:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Decompression is complete", 25);
+/usr/include/c++/13/bits/locale_facets.h:884:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_517);
+/usr/include/c++/13/bits/locale_facets.h:885:23: missed: statement clobbers memory: _534 = OBJ_TYPE_REF(_528;_517->6B) (_517, 10);
+/usr/include/c++/13/ostream:736:19: missed: statement clobbers memory: _515 = std::basic_ostream<char>::put (&cout, prephitmp_445);
+/usr/include/c++/13/ostream:758:24: missed: statement clobbers memory: std::basic_ostream<char>::flush (_515);
+/usr/include/c++/13/ostream:758:24: missed: splitting region at dominance boundary bb109
+/usr/include/c++/13/ostream:758:24: missed: splitting region at dominance boundary bb110
+/usr/include/c++/13/ostream:758:24: missed: splitting region at dominance boundary bb38
+/usr/include/c++/13/ostream:758:24: missed: splitting region at dominance boundary bb111
+/usr/include/c++/13/ostream:667:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Wrong password", 14);
+/usr/include/c++/13/bits/locale_facets.h:884:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_385);
+/usr/include/c++/13/bits/locale_facets.h:885:23: missed: statement clobbers memory: _402 = OBJ_TYPE_REF(_396;_385->6B) (_385, 10);
+/usr/include/c++/13/ostream:736:19: missed: statement clobbers memory: _383 = std::basic_ostream<char>::put (&cout, prephitmp_541);
+/usr/include/c++/13/ostream:758:24: missed: statement clobbers memory: std::basic_ostream<char>::flush (_383);
+Descompressor.cpp:68:19: missed: statement clobbers memory: fclose (_54);
+Descompressor.cpp:68:19: missed: splitting region at dominance boundary bb28
+Descompressor.cpp:68:19: missed: splitting region at dominance boundary bb50
+/usr/include/c++/13/ostream:667:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Wrong password", 14);
+/usr/include/c++/13/bits/locale_facets.h:884:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_357);
+/usr/include/c++/13/bits/locale_facets.h:885:23: missed: statement clobbers memory: _374 = OBJ_TYPE_REF(_368;_357->6B) (_357, 10);
+/usr/include/c++/13/ostream:736:19: missed: statement clobbers memory: _355 = std::basic_ostream<char>::put (&cout, prephitmp_538);
+/usr/include/c++/13/ostream:758:24: missed: statement clobbers memory: std::basic_ostream<char>::flush (_355);
+Descompressor.cpp:62:23: missed: statement clobbers memory: fclose (_54);
+Descompressor.cpp:62:23: missed: splitting region at dominance boundary bb16
+Descompressor.cpp:63:24: missed: statement clobbers memory: __builtin_stack_restore (saved_stack.6_59);
+Descompressor.cpp:63:24: missed: splitting region at dominance boundary bb3
+Descompressor.cpp:33:24: missed: statement clobbers memory: _121 = std::operator<< <std::char_traits<char> > (&cout, _6);
+/usr/include/c++/13/ostream:667:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (_121, " does not exist", 15);
+/usr/include/c++/13/ostream:115:13: missed: statement clobbers memory: std::endl<char, std::char_traits<char> > (_121);
+/usr/include/c++/13/ostream:115:13: missed: splitting region at dominance boundary bb100
+/usr/include/c++/13/ostream:667:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Missing file name", 17);
+/usr/include/c++/13/bits/locale_facets.h:884:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_259);
+/usr/include/c++/13/bits/locale_facets.h:885:23: missed: statement clobbers memory: _276 = OBJ_TYPE_REF(_270;_259->6B) (_259, 10);
+/usr/include/c++/13/ostream:736:19: missed: statement clobbers memory: _257 = std::basic_ostream<char>::put (&cout, prephitmp_640);
+/usr/include/c++/13/ostream:758:24: missed: statement clobbers memory: _258 = std::basic_ostream<char>::flush (_257);
+/usr/include/c++/13/ostream:667:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (_258, "try \'./extract {{file_name}}\'", 29);
+/usr/include/c++/13/bits/locale_facets.h:884:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_250);
+/usr/include/c++/13/bits/locale_facets.h:885:23: missed: statement clobbers memory: _295 = OBJ_TYPE_REF(_289;_250->6B) (_250, 10);
+/usr/include/c++/13/ostream:736:19: missed: statement clobbers memory: _248 = std::basic_ostream<char>::put (_258, prephitmp_554);
+/usr/include/c++/13/ostream:758:24: missed: statement clobbers memory: std::basic_ostream<char>::flush (_248);
+/usr/include/c++/13/ostream:758:24: missed: splitting region at dominance boundary bb4
+/usr/include/c++/13/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+

@@ -1,0 +1,82 @@
+Compressor.cpp:414:18: missed: couldn't vectorize loop
+
+Compressor.cpp:427:30: missed: couldn't vectorize loop
+Compressor.cpp:427:30: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:429:13: missed: couldn't vectorize loop
+Compressor.cpp:429:13: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:453:30: missed: couldn't vectorize loop
+Compressor.cpp:453:30: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:455:13: missed: couldn't vectorize loop
+Compressor.cpp:455:13: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:501:27: missed: couldn't vectorize loop
+Compressor.cpp:501:27: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+
+Compressor.cpp:530:24: missed: couldn't vectorize loop
+Compressor.cpp:530:24: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:508:37: missed: couldn't vectorize loop
+Compressor.cpp:508:37: missed: not vectorized: number of iterations cannot be computed.
+
+Compressor.cpp:563:27: missed: couldn't vectorize loop
+Compressor.cpp:563:27: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:415:30: missed: couldn't vectorize loop
+Compressor.cpp:415:30: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:553:27: missed: couldn't vectorize loop
+Compressor.cpp:553:27: missed: not vectorized: control flow in loop.
+
+compressor.h:5:8: missed: couldn't vectorize loop
+compressor.h:5:8: missed: not vectorized: control flow in loop.
+
+compressor.h:5:8: missed: couldn't vectorize loop
+compressor.h:5:8: missed: not vectorized: control flow in loop.
+
+compressor.h:5:8: missed: couldn't vectorize loop
+compressor.h:5:8: missed: not vectorized: control flow in loop.
+
+compressor.h:5:8: missed: couldn't vectorize loop
+compressor.h:5:8: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:383:1: missed: couldn't vectorize loop
+Compressor.cpp:383:1: missed: not vectorized: control flow in loop.
+Compressor.cpp:383:1: missed: couldn't vectorize loop
+Compressor.cpp:383:1: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:326:38: missed: couldn't vectorize loop
+Compressor.cpp:326:38: missed: not vectorized: control flow in loop
+.
+Compressor.cpp:261:36: missed: couldn't vectorize loop
+Compressor.cpp:261:36: missed: not vectorized: control flow in loop
+.
+Compressor.cpp:274:13: missed: couldn't vectorize loop
+Compressor.cpp:274:13: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:259:23: missed: couldn't vectorize loop
+ 
+Compressor.cpp:174:15: missed: couldn't vectorize loop
+Compressor.cpp:174:15: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:122:31: missed: couldn't vectorize loop
+Compressor.cpp:122:31: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:102:29: missed: couldn't vectorize loop
+Compressor.cpp:102:29: missed: not vectorized: control flow in loop.
+
+Compressor.cpp:100:33: missed: couldn't vectorize loop
+ 
+Compressor.cpp:87:26: missed: couldn't vectorize loop
+Compressor.cpp:88:13: missed: not vectorized: no vectype for stmt: _33 = *i_849;
+ scalar_type: long int
+Compressor.cpp:64:26: missed: couldn't vectorize loop
+Compressor.cpp:64:26: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+Compressor.cpp:75:24: missed: couldn't vectorize loop
+Compressor.cpp:75:24: missed: not vectorized: control flow in loop.
+Compressor.cpp:64:40: missed: couldn't vectorize loop
+Compressor.cpp:64:40: missed: not vectorized: number of iterations cannot be computed.
+Compressor.cpp:37:38: missed: couldn't vectorize loop
+Compressor.cpp:37:38: missed: not vectorized: control flow in loop.
